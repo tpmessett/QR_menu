@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.6'
 
+# for user management
+gem "pundit"
 # for qr codes
 gem "rqrcode", "~> 2.0"
 # for slugs

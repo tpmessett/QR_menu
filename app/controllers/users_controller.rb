@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user
 
-  def boards
+  def menus
     @menus = @user.menus
   end
 

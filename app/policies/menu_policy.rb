@@ -1,4 +1,4 @@
-class BoardPolicy < ApplicationPolicy
+class MenuPolicy < ApplicationPolicy
   class Scope < Scope
     def resolve
       scope.where(user: user)

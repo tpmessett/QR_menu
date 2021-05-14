@@ -1,6 +1,6 @@
 class MenusController < ApplicationController
   def index
-    @menus = policy_scope(Board)
+    @menus = policy_scope(Menu)
   end
 
   def new
